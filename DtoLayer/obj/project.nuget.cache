@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1z6zKYjwIfbSpE9MOP/Jn/2gjWvBk0Daj6haQSIFarQaR2IB0Qe7gErGalMTTRy2DBTxQO3FL9f92i+pWYGCrw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yunus\\Desktop\\universietet\\internettjenester_Prosject\\HarmoniHotell\\DtoLayer\\DtoLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yunus\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\yunus\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\yunus\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
