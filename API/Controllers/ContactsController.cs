@@ -46,6 +46,8 @@ namespace API.Controllers
         public async Task<IActionResult> Add(CreateMessageDto contact)
         {
             var result = _mapper.Map<Contact>(contact);
+            result.CreatedAt = DateTime.Now;
+            result.Status = false;
             await _service.AddAsync(result);
             return Ok("Added Successfully");
         }

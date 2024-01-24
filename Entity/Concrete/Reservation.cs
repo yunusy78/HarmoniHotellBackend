@@ -1,4 +1,6 @@
-﻿using Entity.Abstract;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Runtime.InteropServices.JavaScript;
+using Entity.Abstract;
 
 namespace Entity.Concrete;
 
@@ -14,7 +16,6 @@ public class Reservation : BaseClass
     public int Infant { get; set; }
     public int TotalGuest { get; set; }
     public int TotalPrice { get; set; }
-    public string PaymentStatus { get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }
     public string Description { get; set; }

@@ -297,3 +297,4 @@ C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\API
 C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\API\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
 C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\API\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
 C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\API\bin\Debug\net7.0\Swashbukle.AspNetCore.dll
+C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\API\obj\Debug\net7.0\API.sourcelink.json

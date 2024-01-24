@@ -326,3 +326,4 @@ C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\WEB
 C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\WEB\bin\Debug\net7.0\DataAccess.pdb
 C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\WEB\bin\Debug\net7.0\DtoLayer.pdb
 C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\WEB\bin\Debug\net7.0\Entity.pdb
+C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\WEB\obj\Debug\net7.0\WEB.sourcelink.json

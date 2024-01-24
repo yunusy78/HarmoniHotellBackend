@@ -15,12 +15,15 @@ namespace API.Controllers
     public class ReservationsController : CustomBaseController
     {
         private readonly IGenericService<Reservation> _service;
+        private readonly IGenericService<Room> _roomService;
         private readonly IMapper _mapper;
 
 
-        public ReservationsController(IGenericService<Reservation> service, IMapper mapper)
+        
+        public ReservationsController(IGenericService<Reservation> service, IGenericService<Room> roomService, IMapper mapper)
         {
             _service = service;
+            _roomService = roomService;
             _mapper = mapper;
         }
 
@@ -45,6 +48,12 @@ namespace API.Controllers
         [HttpPost]
         public async Task<IActionResult> Add(CreateReservationDto dto)
         {
+            dto.CreatedAt = DateTime.Now;
+            dto.Status = false;
+            var room = await _roomService.GetByIdAsync(dto.RoomId);
+            int numberOfDays = (int)(dto.CheckOut - dto.CheckIn).TotalDays;
+            dto.TotalPrice = room.Price * numberOfDays;
+            dto.TotalGuest += dto.Adult+dto.Child+dto.Infant;
             var result = _mapper.Map<Reservation>(dto);
             await _service.AddAsync(result);
             return Ok("Added Successfully");
@@ -65,6 +74,7 @@ namespace API.Controllers
             await _service.RemoveAsync(dto);
             return Ok("Deleted Successfully");
         }
+        
 
     }
 

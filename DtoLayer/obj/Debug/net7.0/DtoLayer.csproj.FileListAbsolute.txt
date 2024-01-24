@@ -9,3 +9,4 @@ C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\Dto
 C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\DtoLayer\obj\Debug\net7.0\refint\DtoLayer.dll
 C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\DtoLayer\obj\Debug\net7.0\DtoLayer.pdb
 C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\DtoLayer\obj\Debug\net7.0\ref\DtoLayer.dll
+C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\DtoLayer\obj\Debug\net7.0\DtoLayer.sourcelink.json

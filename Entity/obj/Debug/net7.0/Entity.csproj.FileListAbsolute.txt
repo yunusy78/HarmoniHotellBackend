@@ -9,3 +9,4 @@ C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\Ent
 C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\Entity\obj\Debug\net7.0\refint\Entity.dll
 C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\Entity\obj\Debug\net7.0\Entity.pdb
 C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\Entity\obj\Debug\net7.0\ref\Entity.dll
+C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\Entity\obj\Debug\net7.0\Entity.sourcelink.json

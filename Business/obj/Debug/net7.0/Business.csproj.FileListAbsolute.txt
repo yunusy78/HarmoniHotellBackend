@@ -17,3 +17,4 @@ C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\Bus
 C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\Business\obj\Debug\net7.0\ref\Business.dll
 C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\Business\bin\Debug\net7.0\DtoLayer.dll
 C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\Business\bin\Debug\net7.0\DtoLayer.pdb
+C:\Users\yunus\Desktop\universietet\internettjenester_Prosject\HarmoniHotell\Business\obj\Debug\net7.0\Business.sourcelink.json
