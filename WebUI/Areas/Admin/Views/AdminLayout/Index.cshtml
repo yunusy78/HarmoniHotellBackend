@@ -1,0 +1,41 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "title";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+@await Component.InvokeAsync("_HeaderViewComponentPartial")
+<body>
+
+<!--*******************
+Preloader start
+********************-->
+<div id="preloader">
+    <div class="loader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+        </svg>
+    </div>
+</div>
+<!--*******************
+Preloader end
+********************-->
+
+    
+<!--**********************************
+Main wrapper start
+***********************************-->
+<div id="main-wrapper">
+@await Component.InvokeAsync("_NavBarViewComponentPartial")
+@await Component.InvokeAsync("_SideBarViewComponentPartial")
+
+@RenderBody()
+
+@await Component.InvokeAsync("_FooterViewComponentPartial")
+</div>
+@await Component.InvokeAsync("_ScriptViewComponentPartial")
+</body>
+
+</html>

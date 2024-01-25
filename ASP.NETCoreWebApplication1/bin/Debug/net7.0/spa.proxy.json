@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44486",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\yunus\\Desktop\\universietet\\internettjenester_Prosject\\HarmoniHotell\\ASP.NETCoreWebApplication1\\ClientApp\\",
+"MaxTimeoutInSeconds": "120"
+}
+}
